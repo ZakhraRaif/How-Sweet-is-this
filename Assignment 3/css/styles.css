@@ -1,0 +1,170 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', sans-serif;
+    line-height: 1.6;
+}
+
+
+body {
+    background: url('../img/img\(5\).jpeg');
+    background-size: cover;
+}
+
+
+header {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    background-color: #8A572A; 
+}
+
+header img{
+    width : 30%;
+}
+
+section {
+    width: 80%;
+    margin: 2% auto;
+    background-color: beige; 
+    padding: 2%; 
+}
+
+
+section.origin {
+    display: flex;
+    align-items: center;
+}
+
+section.origin img {
+    width: 40%;
+    height: auto;
+}
+
+section.origin div {
+    flex-grow: 1;
+    padding: 2%;
+}
+
+
+section.ingridients {
+    display: flex;
+    align-items: center;
+}
+
+section.ingridients img {
+    width: 40%;
+    height: auto;
+}
+
+section.ingridients div {
+    flex-grow: 1;
+    padding: 2%;
+}
+
+.addition h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+.gallery{
+    display:flex;
+    justify-content: space-between;
+}
+.polaroid{
+    width: 48%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.gallery img {
+    width: 10%
+}
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.polaroid {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.polaroid:hover {
+    transform: scale(1.1);
+}
+
+
+.polaroid:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+tr:hover {
+    background-color: #d9b384;
+}
+
+tr:hover td:nth-child(2) {
+    background-color: #d9b384;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2%;
+}
+
+table, th, td {
+    border: 1px solid #654321; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e1c48d; 
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #e1c48d; 
+}
+footer img{
+    width : 20%;
+}
+.company-info{
+    font-size: 40px;
+}
+
+a:hover, button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#calories:hover,
+#carbohydrate:hover,
+#fibre:hover,
+#sugars:hover,
+#fat:hover,
+#cholesterol:hover,
+#saturated:hover,
+#trans:hover,
+#protein:hover,
+#sodium:hover,
+#calcium:hover,
+#iron:hover,
+#potassium:hover{
+    background-color: #d9b384;
+}
+
